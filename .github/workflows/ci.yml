@@ -30,7 +30,7 @@ jobs:
         run: chmod +x mvnw
 
       - name: Build Project
-        run: ./mvnw clean install
+        run: ./mvnw clean install -DskipTests
 
       - name: Run Tests
         run: ./mvnw test
