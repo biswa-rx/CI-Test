@@ -10,7 +10,12 @@ class CiTestApplicationTests {
 
     @Test
     void testApp() {
-        assertEquals(2, 1);
+        assertEquals(1, 1);
+    }
+
+    @Test
+    void test2App() {
+        assertEquals(2, 2);
     }
 
 }
